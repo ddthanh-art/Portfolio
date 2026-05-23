@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DO DUC THANH - Construction Engineer, Project Management Specialist & Construction Lecturer. 7+ years of experience in construction project management and engineering education.">
+    <meta name="keywords" content="Construction Engineer, Project Management, BIM, Site Supervision, Construction Lecturer, Engineering Portfolio">
+    <meta name="author" content="Do Duc Thanh">
+    <title>DO DUC THANH | Construction Engineer & Lecturer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- LOADING SCREEN -->
+    <!-- ============================================ -->
+    <div id="loader" class="loader">
+        <div class="loader-inner">
+            <div class="loader-icon">
+                <i class="fas fa-hard-hat"></i>
+            </div>
+            <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+            <p class="loader-text">Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SCROLL PROGRESS INDICATOR -->
+    <!-- ============================================ -->
+    <div id="scrollProgress" class="scroll-progress"></div>
+
+    <!-- ============================================ -->
+    <!-- NAVIGATION -->
+    <!-- ============================================ -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <!-- Logo / Brand -->
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon"><i class="fas fa-drafting-compass"></i></span>
+                <span class="logo-text">DD<span class="logo-accent">THANH</span></span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================ -->
+    <section id="hero" class="hero">
+        <!-- Engineering Grid Canvas Background -->
+        <canvas id="heroCanvas" class="hero-canvas"></canvas>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting reveal-up">Hello, I'm</p>
+                <h1 class="hero-name reveal-up">DO DUC <span class="text-accent">THANH</span></h1>
+                <div class="hero-title-wrapper reveal-up">
+                    <span class="hero-title-prefix">A </span>
+                    <span id="typingText" class="hero-typing"></span>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <p class="hero-tagline reveal-up">Connecting Engineering Education with Real Construction Practice</p>
+                <div class="hero-buttons reveal-up">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="#" class="btn btn-outline" id="downloadCV">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-stats reveal-up">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number counter" data-target="7">0</span>
+                        <span class="hero-stat-plus">+</span>
+                        <span class="hero-stat-label">Years Experience</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number counter" data-target="50">0</span>
+                        <span class="hero-stat-plus">+</span>
+                        <span class="hero-stat-label">Projects Completed</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number counter" data-target="500">0</span>
+                        <span class="hero-stat-plus">+</span>
+                        <span class="hero-stat-label">Students Trained</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="hero-image-frame">
+                    <!-- REPLACE: Replace this with your professional profile photo -->
+                    <!-- Example: <img src="assets/images/profile.jpg" alt="Do Duc Thanh"> -->
+                    <div class="hero-image-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Profile Photo</span>
+                    </div>
+                </div>
+                <div class="hero-image-decoration"></div>
+                <div class="hero-image-badge">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Verified Professional</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <span class="scroll-down-text">Scroll Down</span>
+            <span class="scroll-down-icon"><i class="fas fa-chevron-down"></i></span>
+        </a>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================ -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Get To Know Me</span>
+                <h2 class="section-title">About <span class="text-accent">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <div class="about-image-wrapper">
+                        <!-- REPLACE: Replace with your professional about photo -->
+                        <div class="about-image-placeholder">
+                            <i class="fas fa-hard-hat"></i>
+                            <span>About Photo</span>
+                        </div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="about-exp-number">7+</span>
+                        <span class="about-exp-text">Years of<br>Experience</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal-right">
+                    <h3 class="about-heading">Construction Engineer & Engineering Educator</h3>
+                    <p class="about-text">
+                        I am a dedicated Construction Engineer and Lecturer with over 7 years of comprehensive experience spanning both the construction industry and engineering education. My unique dual expertise allows me to bridge the gap between theoretical knowledge and practical construction application, delivering exceptional value to every project and every student I mentor.
+                    </p>
+                    <p class="about-text">
+                        My professional philosophy centers on the integration of modern construction technologies — including BIM, advanced structural analysis, and digital project management tools — with proven engineering practices. I believe that sustainable development in construction begins with well-trained professionals who understand both the science and the craft of building.
+                    </p>
+                    <p class="about-text">
+                        As a construction lecturer, I am committed to developing the next generation of engineers by connecting classroom learning with real-world construction challenges. My industry connections and active project involvement ensure that my students receive education that is current, relevant, and practically applicable.
+                    </p>
+
+                    <div class="about-info-grid">
+                        <div class="about-info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>Full Name</strong>
+                                <span>Do Duc Thanh</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <!-- EDIT: Replace with your phone number -->
+                                <a href="tel:0913180895">0913180895</a>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <!-- EDIT: Replace with your email -->
+                                <a href="mailto:thanhdoks1995@gmail.com">thanhdoks1995@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <strong>Specialization</strong>
+                                <span>Construction Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-values">
+                        <div class="about-value">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Integrity</span>
+                        </div>
+                        <div class="about-value">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Innovation</span>
+                        </div>
+                        <div class="about-value">
+                            <i class="fas fa-users"></i>
+                            <span>Leadership</span>
+                        </div>
+                        <div class="about-value">
+                            <i class="fas fa-leaf"></i>
+                            <span>Sustainability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- EXPERIENCE SECTION -->
+    <!-- ============================================ -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Professional Journey</span>
+                <h2 class="section-title">Work <span class="text-accent">Experience</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 — Present</div>
+                        <h3 class="timeline-title">Construction Lecturer</h3>
+                        <h4 class="timeline-company">Vocational College of Construction</h4>
+                        <p class="timeline-desc">
+                            Delivering comprehensive construction engineering courses covering structural analysis, construction management, AutoCAD, and BIM technologies. Developing curriculum that integrates real-world construction practice with academic theory.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li><i class="fas fa-check"></i> Trained 500+ students in construction engineering principles</li>
+                            <li><i class="fas fa-check"></i> Developed practical training programs with industry partners</li>
+                            <li><i class="fas fa-check"></i> Mentored students in national engineering competitions</li>
+                            <li><i class="fas fa-check"></i> Created BIM-integrated curriculum for modern construction education</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Teaching</span>
+                            <span class="tag">Curriculum Design</span>
+                            <span class="tag">BIM</span>
+                            <span class="tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 — Present</div>
+                        <h3 class="timeline-title">Project Manager</h3>
+                        <h4 class="timeline-company">Construction & Engineering Firm</h4>
+                        <p class="timeline-desc">
+                            Leading multidisciplinary construction projects from planning through completion. Managing budgets, schedules, subcontractors, and stakeholder communications while ensuring quality standards and regulatory compliance.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li><i class="fas fa-check"></i> Managed construction projects valued over $5M+ collectively</li>
+                            <li><i class="fas fa-check"></i> Delivered projects on schedule with 95%+ client satisfaction</li>
+                            <li><i class="fas fa-check"></i> Implemented BIM-based project management workflows</li>
+                            <li><i class="fas fa-check"></i> Coordinated teams of 20+ construction professionals</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Project Management</span>
+                            <span class="tag">Budgeting</span>
+                            <span class="tag">Team Leadership</span>
+                            <span class="tag">Quality Control</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2017 — 2019</div>
+                        <h3 class="timeline-title">Site Supervision Engineer</h3>
+                        <h4 class="timeline-company">Construction Site Management</h4>
+                        <p class="timeline-desc">
+                            Supervised on-site construction activities, ensuring compliance with design specifications, safety regulations, and quality standards. Coordinated with contractors and conducted regular site inspections and technical assessments.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li><i class="fas fa-check"></i> Supervised 15+ residential and commercial construction sites</li>
+                            <li><i class="fas fa-check"></i> Achieved zero major safety incidents across all supervised sites</li>
+                            <li><i class="fas fa-check"></i> Conducted quality assurance inspections and structural assessments</li>
+                            <li><i class="fas fa-check"></i> Managed technical documentation and progress reporting</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Site Supervision</span>
+                            <span class="tag">Safety</span>
+                            <span class="tag">Quality Assurance</span>
+                            <span class="tag">Inspection</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016 — 2018</div>
+                        <h3 class="timeline-title">Construction Engineer</h3>
+                        <h4 class="timeline-company">Engineering Consulting Company</h4>
+                        <p class="timeline-desc">
+                            Executed structural calculations, technical drawings, and construction documentation. Collaborated with senior engineers on design optimization and contributed to multiple commercial and residential projects.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li><i class="fas fa-check"></i> Completed structural analysis for 20+ building projects</li>
+                            <li><i class="fas fa-check"></i> Produced AutoCAD technical drawings and BIM models</li>
+                            <li><i class="fas fa-check"></i> Conducted quantity takeoffs and cost estimation</li>
+                            <li><i class="fas fa-check"></i> Assisted in obtaining construction permits and approvals</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Structural Engineering</span>
+                            <span class="tag">AutoCAD</span>
+                            <span class="tag">BIM</span>
+                            <span class="tag">Documentation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 5 -->
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 — Present</div>
+                        <h3 class="timeline-title">Technical Consultant</h3>
+                        <h4 class="timeline-company">Independent / Freelance</h4>
+                        <p class="timeline-desc">
+                            Providing specialized technical consulting services for construction projects, including feasibility studies, structural assessments, BIM implementation strategies, and construction quality audits for private clients and firms.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li><i class="fas fa-check"></i> Consulted on 10+ construction projects independently</li>
+                            <li><i class="fas fa-check"></i> Delivered BIM adoption strategies for small-to-medium firms</li>
+                            <li><i class="fas fa-check"></i> Provided structural assessment reports for existing buildings</li>
+                            <li><i class="fas fa-check"></i> Built strong network of industry professional connections</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Consulting</span>
+                            <span class="tag">BIM Strategy</span>
+                            <span class="tag">Assessment</span>
+                            <span class="tag">Client Relations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SKILLS SECTION -->
+    <!-- ============================================ -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Technical Proficiency</span>
+                <h2 class="section-title">Professional <span class="text-accent">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-tasks"></i> Project Management</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="95"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-hard-hat"></i> Construction Supervision</span>
+                        <span class="skill-percent">92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="92"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-drafting-compass"></i> AutoCAD</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="90"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-cubes"></i> BIM (Building Information Modeling)</span>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="88"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-building"></i> Structural Engineering</span>
+                        <span class="skill-percent">87%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="87"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-calculator"></i> Quantity Takeoff</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="85"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-file-alt"></i> Technical Documentation</span>
+                        <span class="skill-percent">93%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="93"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 8 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-comments"></i> Communication Skills</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="90"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 9 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-users-cog"></i> Leadership</span>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="88"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 10 -->
+                <div class="skill-item reveal-up">
+                    <div class="skill-header">
+                        <span class="skill-name"><i class="fas fa-chalkboard"></i> Teaching Skills</span>
+                        <span class="skill-percent">94%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-width="94"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Tools -->
+            <div class="tools-section reveal-up">
+                <h3 class="tools-title">Software & Tools</h3>
+                <div class="tools-grid">
+                    <div class="tool-badge"><i class="fas fa-drafting-compass"></i> AutoCAD</div>
+                    <div class="tool-badge"><i class="fas fa-cubes"></i> Revit</div>
+                    <div class="tool-badge"><i class="fas fa-layer-group"></i> Navisworks</div>
+                    <div class="tool-badge"><i class="fas fa-chart-bar"></i> MS Project</div>
+                    <div class="tool-badge"><i class="fas fa-calculator"></i> ETABS</div>
+                    <div class="tool-badge"><i class="fas fa-ruler-combined"></i> SketchUp</div>
+                    <div class="tool-badge"><i class="fas fa-file-excel"></i> Microsoft Office</div>
+                    <div class="tool-badge"><i class="fas fa-images"></i> Photoshop</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PROJECTS SECTION -->
+    <!-- ============================================ -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Featured Work</span>
+                <h2 class="section-title">Projects & <span class="text-accent">Portfolio</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Project Filter -->
+            <div class="project-filter reveal-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="construction">Construction</button>
+                <button class="filter-btn" data-filter="management">Management</button>
+                <button class="filter-btn" data-filter="bim">BIM</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal-up" data-category="construction">
+                    <div class="project-image">
+                        <!-- REPLACE: Replace with actual project image -->
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <span class="project-category">Construction</span>
+                                <h3 class="project-title">Commercial Building Complex</h3>
+                                <p class="project-desc">Complete structural engineering and site supervision for a multi-story commercial building complex including retail spaces and office areas.</p>
+                                <div class="project-stats">
+                                    <span><i class="fas fa-ruler"></i> 5,000 m²</span>
+                                    <span><i class="fas fa-calendar"></i> 12 months</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Construction</span>
+                        <h3>Commercial Building Complex</h3>
+                        <p>Structural engineering & site supervision for multi-story commercial development.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal-up" data-category="management">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <span class="project-category">Management</span>
+                                <h3 class="project-title">Residential Township Project</h3>
+                                <p class="project-desc">Full project management for a residential township development including scheduling, budgeting, subcontractor coordination, and quality assurance.</p>
+                                <div class="project-stats">
+                                    <span><i class="fas fa-home"></i> 120 Units</span>
+                                    <span><i class="fas fa-calendar"></i> 24 months</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Management</span>
+                        <h3>Residential Township Project</h3>
+                        <p>Full project management for residential township development.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal-up" data-category="bim">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <span class="project-category">BIM</span>
+                                <h3 class="project-title">BIM-Integrated Hospital Wing</h3>
+                                <p class="project-desc">BIM modeling and coordination for a hospital wing extension, including clash detection, MEP coordination, and 4D simulation for construction planning.</p>
+                                <div class="project-stats">
+                                    <span><i class="fas fa-hospital"></i> 8,000 m²</span>
+                                    <span><i class="fas fa-calendar"></i> 18 months</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">BIM</span>
+                        <h3>BIM-Integrated Hospital Wing</h3>
+                        <p>BIM modeling & coordination for healthcare construction project.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal-up" data-category="education">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <span class="project-category">Education</span>
+                                <h3 class="project-title">Student Training Program</h3>
+                                <p class="project-desc">Designed and delivered a comprehensive construction internship program connecting 100+ students with real-world construction projects and industry mentors.</p>
+                                <div class="project-stats">
+                                    <span><i class="fas fa-users"></i> 100+ Students</span>
+                                    <span><i class="fas fa-calendar"></i> Ongoing</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Education</span>
+                        <h3>Student Training Program</h3>
+                        <p>Comprehensive construction internship & mentoring program.</p>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card reveal-up" data-category="construction">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <span class="project-category">Construction</span>
+                                <h3 class="project-title">Industrial Warehouse Facility</h3>
+                                <p class="project-desc">Complete construction execution and technical supervision for a large-scale industrial warehouse including foundation works, steel structure, and MEP systems.</p>
+                                <div class="project-stats">
+                                    <span><i class="fas fa-ruler"></i> 12,000 m²</span>
+                                    <span><i class="fas fa-calendar"></i> 10 months</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Construction</span>
+                        <h3>Industrial Warehouse Facility</h3>
+                        <p>Construction execution for large-scale industrial facility.</p>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card reveal-up" data-category="bim">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <span class="project-category">Consulting</span>
+                                <h3 class="project-title">Technical Supervision Services</h3>
+                                <p class="project-desc">Provided independent technical supervision and quality audit services for multiple construction projects, ensuring compliance with design specs and safety standards.</p>
+                                <div class="project-stats">
+                                    <span><i class="fas fa-building"></i> 8 Projects</span>
+                                    <span><i class="fas fa-calendar"></i> 2020-Present</span>
+                                </div>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Consulting</span>
+                        <h3>Technical Supervision Services</h3>
+                        <p>Independent technical supervision & quality audits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- EDUCATION SECTION -->
+    <!-- ============================================ -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Academic Background</span>
+                <h2 class="section-title">Education & <span class="text-accent">Certifications</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="education-grid">
+                <!-- Education Cards -->
+                <div class="edu-card reveal-left">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-content">
+                        <span class="edu-year">2013 — 2017</span>
+                        <h3 class="edu-degree">Bachelor of Construction Engineering</h3>
+                        <h4 class="edu-school">University of Construction Engineering</h4>
+                        <p class="edu-desc">
+                            Comprehensive study of structural engineering, construction materials, geotechnics, construction management, and building design. Graduated with strong foundation in both theoretical and practical construction engineering.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal-right">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="edu-content">
+                        <span class="edu-year">2019</span>
+                        <h3 class="edu-degree">BIM Professional Certification</h3>
+                        <h4 class="edu-school">Autodesk / BIM Institute</h4>
+                        <p class="edu-desc">
+                            Professional certification in Building Information Modeling covering Revit Architecture, Revit Structure, MEP coordination, and BIM management workflows.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal-left">
+                    <div class="edu-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="edu-content">
+                        <span class="edu-year">2020</span>
+                        <h3 class="edu-degree">Project Management Professional (PMP) Training</h3>
+                        <h4 class="edu-school">Professional Training Institute</h4>
+                        <p class="edu-desc">
+                            Intensive training in project management methodologies, risk management, scheduling, cost control, stakeholder management, and Agile practices in construction.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal-right">
+                    <div class="edu-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="edu-content">
+                        <span class="edu-year">2021</span>
+                        <h3 class="edu-degree">Construction Safety Officer Certification</h3>
+                        <h4 class="edu-school">Occupational Safety Institute</h4>
+                        <p class="edu-desc">
+                            Certification in construction site safety management, OSHA standards, hazard assessment, safety planning, and regulatory compliance for construction sites.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal-left">
+                    <div class="edu-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="edu-content">
+                        <span class="edu-year">2022</span>
+                        <h3 class="edu-degree">Pedagogical Certificate for Vocational Education</h3>
+                        <h4 class="edu-school">Education Training Center</h4>
+                        <p class="edu-desc">
+                            Professional teaching certification for vocational and technical education, covering instructional design, student assessment methodologies, and modern pedagogical techniques.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal-right">
+                    <div class="edu-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="edu-content">
+                        <span class="edu-year">2023</span>
+                        <h3 class="edu-degree">Advanced Structural Analysis & Design</h3>
+                        <h4 class="edu-school">Engineering Professional Development</h4>
+                        <p class="edu-desc">
+                            Advanced training in finite element analysis, seismic design, reinforced concrete design optimization, and modern structural engineering software applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- GALLERY SECTION -->
+    <!-- ============================================ -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Visual Portfolio</span>
+                <h2 class="section-title">Engineering <span class="text-accent">Gallery</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- REPLACE: Replace all placeholder items with your actual images -->
+                <!-- Example: <div class="gallery-item" data-src="assets/images/construction-site.jpg"> -->
+
+                <div class="gallery-item reveal-up" data-title="Construction Site Supervision">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-building"></i>
+                        <span>Construction Site</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Construction Site Supervision</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="Project Management Meeting">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-handshake"></i>
+                        <span>Team Meeting</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Project Management Meeting</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="BIM Model Development">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-cubes"></i>
+                        <span>BIM Modeling</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>BIM Model Development</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="Teaching Engineering Students">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <span>Teaching</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Teaching Engineering Students</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="Site Inspection & Quality Control">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-clipboard-check"></i>
+                        <span>Site Inspection</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Site Inspection & Quality Control</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="Structural Analysis Work">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-drafting-compass"></i>
+                        <span>Structural Analysis</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Structural Analysis Work</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="Student Mentoring Sessions">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Mentoring</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Student Mentoring Sessions</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" data-title="Industry Collaboration">
+                    <div class="gallery-image-placeholder">
+                        <i class="fas fa-industry"></i>
+                        <span>Industry Work</span>
+                    </div>
+                    <div class="gallery-hover">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Industry Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- LIGHTBOX (Hidden by default) -->
+    <!-- ============================================ -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <div class="lightbox-image" id="lightboxImage"></div>
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- ============================================ -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="text-accent">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info reveal-left">
+                    <h3 class="contact-info-title">Let's Work Together</h3>
+                    <p class="contact-info-text">
+                        Whether you need expert construction management, technical consulting, BIM solutions, or engineering education expertise — I'm ready to collaborate. Let's build something exceptional together.
+                    </p>
+
+                    <div class="contact-info-items">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <strong>Phone</strong>
+                                <!-- EDIT: Replace with your phone number -->
+                                <a href="tel:0913180895">+84 913 180 895</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <!-- EDIT: Replace with your email -->
+                                <a href="mailto:thanhdoks1995@gmail.com">thanhdoks1995@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Vietnam</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <strong>Availability</strong>
+                                <span>Open for collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="contact-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Zalo"><i class="fas fa-comment-dots"></i></a>
+                        <a href="mailto:thanhdoks1995@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper reveal-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="formName">Full Name *</label>
+                            <input type="text" id="formName" name="name" placeholder="Your full name" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formEmail">Email Address *</label>
+                            <input type="email" id="formEmail" name="email" placeholder="your.email@example.com" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formSubject">Subject *</label>
+                            <input type="text" id="formSubject" name="subject" placeholder="Project inquiry, consultation, etc." required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formMessage">Message *</label>
+                            <textarea id="formMessage" name="message" rows="5" placeholder="Describe your project or inquiry..." required></textarea>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <p class="form-note">* All fields are required. I'll respond within 24-48 hours.</p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="contact-map reveal-up">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>Google Maps Integration</p>
+                    <span>Replace with your Google Maps embed code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Footer Brand -->
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-drafting-compass"></i></span>
+                        <span class="logo-text">DD<span class="logo-accent">THANH</span></span>
+                    </a>
+                    <p class="footer-desc">
+                        Construction Engineer, Project Manager & Lecturer dedicated to connecting engineering education with real construction practice. Building the future, one project at a time.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Zalo"><i class="fas fa-comment-dots"></i></a>
+                        <a href="mailto:thanhdoks1995@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#contact">Construction Management</a></li>
+                        <li><a href="#contact">Site Supervision</a></li>
+                        <li><a href="#contact">BIM Consulting</a></li>
+                        <li><a href="#contact">Technical Consulting</a></li>
+                        <li><a href="#contact">Engineering Training</a></li>
+                        <li><a href="#contact">Project Planning</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:0913180895">+84 913 180 895</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:thanhdoks1995@gmail.com">thanhdoks1995@gmail.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Vietnam</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> DO DUC THANH. All Rights Reserved.</p>
+                <p class="footer-tagline">Engineering Knowledge – Practical Construction – Sustainable Development</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- BACK TO TOP BUTTON -->
+    <!-- ============================================ -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
